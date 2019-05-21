@@ -2,7 +2,7 @@ Source for https://trunkbaseddevelopment.com
 
 # Running locally
 
-First: Install [hugo](https://gohugo.io/) for yourself
+First: Install [hugo](https://gohugo.io/) 0.19 for yourself
 
 Next: Clone this repo, and cd into the 'tbd' dir in question
 
@@ -38,3 +38,18 @@ Pull-Requests, of course, if you're not a committer.
 English contributions (expansions of the material) to the `master` branch
 
 Chinese translations to the `cn` branch. - should always reflect the English content, so we can use merge tracking keep the two in step.
+
+# How to build the book?
+
+Install [xidel](https://github.com/benibela/xidel) 0.9.8 for yourself
+
+Install [calibre](https://gohugo.io/) 3.39.1 for yourself
+
+Install [sponge](from `moreutils` package in Ubuntu) for yourself
+
+Next: Launch script book builder like so:
+
+```
+tobook.sh
+```
+Book in pdf, mobi and epub format will be generated in `book` folder.
